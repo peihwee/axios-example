@@ -43,7 +43,7 @@ function TestGet()
         DisplayResponse(response.data);
     })
     .catch(function (error) {
-        txtDisplay.append(error);
+        DisplayResponse(error);
     });
 }
 
@@ -59,7 +59,7 @@ function TestPost()
         DisplayResponse(response.data);
     })
     .catch(function (error) {
-        txtDisplay.append(error);
+        DisplayResponse(error);
     });
 }
 
@@ -75,7 +75,7 @@ function CreateTable()
         DisplayResponse(response.data);
     })
     .catch(function (error) {
-        txtDisplay.append(error);
+        DisplayResponse(error);
     });
 }
 
@@ -91,7 +91,7 @@ function DropTable()
         DisplayResponse(response.data);
     })
     .catch(function (error) {
-        txtDisplay.append(error);
+        DisplayResponse(error);
     });
 }
 
@@ -107,7 +107,7 @@ function InsertMessage()
         DisplayResponse(response.data);
     })
     .catch(function (error) {
-        txtDisplay.append(error);
+        DisplayResponse(error);
     });
 }
 
@@ -123,7 +123,7 @@ function GetAllMessages()
         DisplayResponse(response.data);
     })
     .catch(function (error) {
-        txtDisplay.append(error);
+        DisplayResponse(error);
     });
 }
 
