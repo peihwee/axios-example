@@ -12,7 +12,7 @@ const txtToSend = document.getElementById("messageToSend");
 const txtDisplay = document.getElementById("messagesDisplay");
 
 /////////////////////////////////////////////////////////////////////
-// Initalize Constant to store DOM Elements
+// Setup onclick Events
 /////////////////////////////////////////////////////////////////////
 butTestGET.onclick = TestGet;
 butTestPOST.onclick = TestPost;
